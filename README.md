@@ -1,6 +1,6 @@
 # cbGPS
 
-VB6 working copy of `cbGPS` from Dave Robinson's OneDrive Historical Dev `VB` folder. Project title: prjGPS. Output: `cbGPS.exe`.
+VB6 GPS map viewer (`cbGPS.exe` / `prjGPS`) that reads NMEA `$GPRMC` sentences over `MSCOMM32.OCX`, parses lat/long, velocity, and direction, and plots them on a zoomable map (`GPSMap` / `frmGPS`). COM port and speed units come from `gpsConfig.ini`. Open `prjGPS.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
